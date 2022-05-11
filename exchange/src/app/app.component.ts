@@ -62,7 +62,7 @@ export class AppComponent implements OnInit {
           this.Exchange.push({
             value:this.p,
             exchanges: ex,
-            tradeValue: new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'USD' }).format(trade/1000000000)+"Billions"
+            tradeValue: new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'USD' }).format(trade/1000000000)+" "+"Billions"
 
           })
 
